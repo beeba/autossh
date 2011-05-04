@@ -8,5 +8,6 @@ while /bin/true; do
 
 ssh -t $TUNNELCONFIG $REMOTEUSER@$REMOTEHOST top -d 5;
 
+sleep 5
 done
 
